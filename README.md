@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # A Little Place to Breathe
 
 A gentle friendship scrapbook for Nivi, built from the existing 3D book with HTML, CSS 3D transforms, and vanilla JavaScript. It contains ten supportive spreads and keeps the page turns, touch swipes, keyboard navigation, autoplay, reset, and reduced-motion support.
@@ -25,7 +24,3 @@ The small SVG illustrations are in `assets/decorations/`. They are symbolic deco
 
 - Google Fonts loads when internet access is available; the experience remains usable offline with fallback fonts.
 - Comfort notes open in a keyboard-accessible dialog. Use Escape or the close button to return to the book.
-=======
-# Nivi0527
-Nivi's Website
->>>>>>> 23bec914809c13c91ac3ddf8029296efa28ef0e0
