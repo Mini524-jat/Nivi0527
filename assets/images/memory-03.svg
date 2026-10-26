@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440">
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#d4b69a"/><stop offset="1" stop-color="#a77b66"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".8" numOctaves="2" seed="23"/><feColorMatrix values="0 0 0 0 .4 0 0 0 0 .32 0 0 0 0 .25 0 0 0 .14 0"/></filter>
+  </defs>
+  <rect width="600" height="440" fill="url(#wall)"/>
+  <rect x="53" y="61" width="494" height="280" rx="4" fill="#e8d8c1"/>
+  <rect x="79" y="87" width="442" height="230" fill="#76827d"/>
+  <path d="M79 231q79-83 158 0t142-8q74-64 142 5v89H79Z" fill="#bd9874"/>
+  <path d="M79 278q127-63 245-5t197-6v50H79Z" fill="#596963"/>
+  <circle cx="405" cy="151" r="38" fill="#f0d2a2" opacity=".8"/>
+  <path d="M203 338v42h194v-42" fill="#755b4a"/>
+  <path d="M117 385h367" stroke="#57483e" stroke-width="9"/>
+  <rect width="600" height="440" filter="url(#grain)" opacity=".45"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#aab9be"/><stop offset=".6" stop-color="#e8d7bb"/><stop offset="1" stop-color="#8c9c91"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".75" numOctaves="2" seed="15"/><feColorMatrix values="0 0 0 0 .38 0 0 0 0 .34 0 0 0 0 .29 0 0 0 .12 0"/></filter>
+  </defs>
+  <rect width="600" height="440" fill="url(#sky)"/>
+  <path d="M0 262 145 116l94 119 112-149 249 186v168H0Z" fill="#647374"/>
+  <path d="m145 116 49 70-48-28-41 40m246-112 69 93-62-30-43 29" fill="#e9e0cf" opacity=".83"/>
+  <path d="M0 300q150-64 300 14t300-4v130H0Z" fill="#68796a"/>
+  <path d="M0 350q165-76 300 6t300-11v95H0Z" fill="#b39e79"/>
+  <path d="M240 440q35-108 117-164 37-25 61-24" fill="none" stroke="#dfc9a2" stroke-width="19"/>
+  <path d="M240 440q35-108 117-164 37-25 61-24" fill="none" stroke="#756d5d" stroke-width="2" stroke-dasharray="10 14"/>
+  <rect width="600" height="440" filter="url(#grain)" opacity=".43"/>
+</svg>

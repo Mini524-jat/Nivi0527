@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440">
+  <defs>
+    <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#d8b69a"/><stop offset=".49" stop-color="#e4c8a6"/><stop offset=".5" stop-color="#66817d"/><stop offset="1" stop-color="#3d5960"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".78" numOctaves="2" seed="31"/><feColorMatrix values="0 0 0 0 .38 0 0 0 0 .31 0 0 0 0 .23 0 0 0 .14 0"/></filter>
+  </defs>
+  <rect width="600" height="440" fill="url(#sea)"/>
+  <path d="M0 294q90-18 180 0t180 0 240 0" fill="none" stroke="#d9c09e" stroke-width="8" opacity=".65"/>
+  <path d="M0 351q95-17 190 1t200-1 210 0" fill="none" stroke="#b7967b" stroke-width="5" opacity=".7"/>
+  <path d="M74 276q22-41 46 0m380 0q23-37 45 0" fill="#4d493f"/>
+  <path d="M286 267V204m0 18-27 23m27-8 25 20" stroke="#453b36" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="287" cy="193" r="11" fill="#57443c"/>
+  <path d="M301 321q48 12 83-1" fill="none" stroke="#e5d2b3" stroke-width="3"/>
+  <rect width="600" height="440" filter="url(#grain)" opacity=".4"/>
+</svg>

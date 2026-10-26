@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440">
+  <defs>
+    <linearGradient id="room" x2="0" y2="1"><stop stop-color="#d7c3a8"/><stop offset="1" stop-color="#a88c70"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".85" numOctaves="2" seed="58"/><feColorMatrix values="0 0 0 0 .4 0 0 0 0 .34 0 0 0 0 .28 0 0 0 .14 0"/></filter>
+  </defs>
+  <rect width="600" height="440" fill="url(#room)"/>
+  <rect x="65" y="46" width="470" height="250" fill="#f0e3ce"/>
+  <rect x="91" y="71" width="418" height="200" fill="#9ea9a0"/>
+  <path d="M91 216q102-70 196 3t222-3v55H91Z" fill="#76817a"/>
+  <circle cx="421" cy="129" r="34" fill="#eed5aa"/>
+  <path d="M0 315h600v125H0Z" fill="#8e725d"/>
+  <path d="M192 347q87-44 181 0v60H192Z" fill="#d5bda0"/>
+  <path d="M220 350v53m126-53v53" stroke="#68584b" stroke-width="8"/>
+  <rect width="600" height="440" filter="url(#grain)" opacity=".42"/>
+</svg>

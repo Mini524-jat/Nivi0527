@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d8b99b"/><stop offset="1" stop-color="#ecdec7"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".8" numOctaves="2" seed="67"/><feColorMatrix values="0 0 0 0 .37 0 0 0 0 .31 0 0 0 0 .25 0 0 0 .13 0"/></filter>
+  </defs>
+  <rect width="600" height="440" fill="url(#sky)"/>
+  <path d="M0 287 105 179l75 62 101-140 108 144 71-72 140 124v143H0Z" fill="#69736d"/>
+  <path d="m281 101 41 64-39-17-31 33-24-37Z" fill="#e9e0d0"/>
+  <path d="M0 298q113-46 225 4t190 3q94-40 185-4v139H0Z" fill="#4f665d"/>
+  <path d="M0 378q97-25 182-2t207 5q120-32 211-2v61H0Z" fill="#ae9472"/>
+  <path d="M76 325v-75m0 30-25 22m25-9 25 25m390-29v-71m0 27-24 21m24-8 21 25" stroke="#48483f" stroke-width="8" stroke-linecap="round"/>
+  <rect width="600" height="440" filter="url(#grain)" opacity=".43"/>
+</svg>
